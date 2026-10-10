@@ -1,0 +1,21 @@
+name: TapRush
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  TapRush:
+    type: application
+    platform: iOS
+    sources:
+      - path: TapRush
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.TapRush
+        PRODUCT_NAME: TapRush
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_KEY_CFBundleDisplayName: Tap Rush
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        GENERATE_INFOPLIST_FILE: YES
